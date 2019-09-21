@@ -162,6 +162,12 @@ footer p,footer h2 {
     clear: both;
 }
 
+#Laravel {
+    background-image: url(../img/AI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* スライドショー*/
 .slideshow {

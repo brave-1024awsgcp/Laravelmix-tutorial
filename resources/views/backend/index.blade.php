@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+                                                                                                    <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>IT業界の技術比較:SERVER</title>
 <link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/slick.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
 </head>
 
   <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">

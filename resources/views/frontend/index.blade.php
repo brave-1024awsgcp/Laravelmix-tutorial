@@ -4,12 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ウェブフレームワーク</title>
-<link rel="stylesheet" href="css/style1.css">
+<link rel="stylesheet" href="/css/style1.css">
 <link rel="stylesheet" href="/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
 </head>
-
  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
@@ -25,7 +24,7 @@
             <canvas id="chart">
             </canvas>
                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-               <script src="js2/main.js"></script>
+               <script src="/js2/main.js"></script>
              </div>
              <p>git hubスターについて</p>
              <p>上記のグラフはgit hubスターにより、判明した去年までの情報である。</p>
@@ -33,10 +32,10 @@
              <p>AngularはJavascritptのフレームワークではないので要注意</p>
        　　　<p>※正しくはTypescritpt</p>
           <div class="slideshow">
-           <div><img src="img/typescript.jpg" alt=""></div>
-          <div><img src="img/Angular.jpg" alt=""></div>
-          <div><img src="img/React.jpg" alt=""></div>
-       　<div><img src="img/Laravelmix.jpg" alt=""></div>
+           <div><img src="/img/typescript.jpg" alt=""></div>
+          <div><img src="/img/Angular.jpg" alt=""></div>
+          <div><img src="/img/React.jpg" alt=""></div>
+       　<div><img src="/img/Laravelmix6.jpg" alt=""></div>
            </div>          
           <table border ="1" align="center">
                     <tr>
@@ -159,18 +158,13 @@
             <p>ここまで記載してきたことは悪魔でも個人的な見解です。実際の難易度は人によって異なるかもしれません。ただjavascriptの成長と進化は早いです。今後新しいフレームワークの誕生を期待しています。</p>   
                     <a href="http://127.0.0.1:8000/posts/create">コメントへ</a>
         </div>
-    </div>
-     </section>
+      </div>
+  </section>
 </div>
-             
-               
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/app.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
+    <script src="/js/app.js"></script>
  </body>
 </html>

@@ -1,6 +1,8 @@
 @extends('layouts.default')
 
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+@section('content')
+  <link rel="stylesheet" href="/css/style1.css">
+  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
@@ -9,15 +11,15 @@
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
   </nav>
-@section('content')
-<h1>
-<p>ご拝読いただきありがとうございました。</p>
-</h1>
-  <h2>下記お答えいただけますと幸いです☆</h2>
+   <h1></h1>
+
+   <img src= "/img/gl2.jpg" alt="">
+   <p>ご拝読いただきありがとうございました。</p>
+   <h2>下記お答えいただけますと幸いです☆</h2>
    <p>お題はぶっちゃけやってみたい技術についてです。</p>
    <p>下記プルダウンメニューから選択して、ボタンをクリックしてください</p>
-<table>
-  <form method="post" action="{{ url('/posts') }}">
+  <table>
+   <form method="post" action="{{ url('/posts') }}">
    {{ csrf_field() }}
    <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'management' => 'management' ,'database' => 'database', 'network' => 'network', 'backend' =>'backend', 'frontend' =>'frontend'])}}</td></tr>
    <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Jsp' => 'Jsp', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Play' =>'Play','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
@@ -27,6 +29,6 @@
    <tr><th>使用したいサービス</th><td>{{Form::select('serveres', ['SAKURA' => 'SAKURA', 'CONOHA' => 'CONOHA', 'AZURE' =>'AZURE', 'AWS' =>'AWS','GCP' =>'GCP'])}}</td></tr>
    <tr><th>使用しているOS</th><td>{{Form::select('os', ['WINDOWS' => 'WINDOWS', 'MACBOOK' => 'MACBOOK', 'Ubuntu' =>'Ubuntu', 'Centos7' =>'Centos7','Hyperv' =>'Hyperv','Soralis' =>'Soralis','Linuxmint' =>'Linuxmint'])}}</td></tr>
      <input type="submit" value="押してね！！">
-</form>
-</table>
+  </form>
+ </table>
 @endsection
