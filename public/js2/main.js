@@ -1,49 +1,33 @@
- (function() {
-            'use strict';
+$(function(){
 
-        var type = 'line';
-        var data = {
-             labels: [ 20131220, 20141231, 20150820, 20160407, 20161125, 20170417, 20180302, 20181220],
-             datasets: [{
-             label: 'React',
-             data: [ 0, 12000, 25000, 38000, 55000, 75000, 94000, 118000],
-             borderColor: 'green',
-             borderWidth: 10,
-             pointStyle: ''
-          }, {
+	var STEP = 100; //1文字づつ表示する間隔
+	var TYPING_LINE = '<span class="line">_</span>'; //タイピングライン要素
 
-             label: 'Angular',
-             data: [0, 0, 2000, 10000, 18000, 25000, 30000, 42000],
-             borderColor: 'red',
-             borderWidth: 10,
-             lineTension: 0,
-             pointStyle: ''
-          }, {
+	function setTextAnimate(target){
 
-            label: 'Vue',
-            data: [0, 2000, 5000, 15000, 33000, 58000, 88000, 120000],
-            borderColor: 'blue',
-            borderWidth: 10,
-            lineTension: 0,
-            pointStyle: ''
-         }]
-        };
+		var str = target.text(); //対象セレクタのテキスト
+		var num = 0; //現在表示されている文字列のインデックス
+		var typingLine; //タイピングラインのセレクタを格納した変数
 
-            var options = {
-              scales: {
-                yAxes: [{
-                  ticks: {
-                    suggestedMin: 0,
-                    suggestedMax: 120000
-                  }
-                }]
-              }
-            };
+		target.text('').append(TYPING_LINE);
+		typingLine = target.find('.line');
 
-            var ctx = document.getElementById('chart').getContext('2d');
-            var myChart = new Chart(ctx, {
-              type: type,
-              data: data,
-              options: options
-            });
-          })();
+		for( var i=0; i<str.length; i++ ){
+			setTimeout(function(){
+				typingLine.remove();
+				target.append( str.charAt(num) ).append(typingLine);
+				num++;
+			}, i*STEP);
+		};
+
+		setTimeout( function(){
+			typingLine.remove();
+		}, str.length*STEP );
+
+	};
+
+	$.each( $('.animate_txt'), function(){
+		setTextAnimate($(this));
+	} );
+
+});

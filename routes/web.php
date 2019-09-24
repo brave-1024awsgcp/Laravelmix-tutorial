@@ -10,7 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'DatabaseController@index');
+Route::get('/', 'HOMEController@index');
+Route::get('/SIER', 'SIERController@index');
+Route::get('/gengo', 'gengoController@index');
+Route::get('/SEPG', 'SEPGController@index');
+Route::get('/WEB', 'WEBController@index');
+Route::get('/gengo2', 'gengo2Controller@index');
+Route::get('/FrameWork', 'FrameWorkController@index');
+Route::get('/Data', 'DataController@index');
+Route::get('/Info', 'InfoController@index');
+Route::get('/Info2', 'Info2Controller@index');
+Route::get('/Database', 'DatabaseController@index');
 Route::get('/serverservice', 'serverserviceController@index');
 Route::get('/frontend', 'FrontendController@index');
 Route::get('/backend', 'BackendController@index');
