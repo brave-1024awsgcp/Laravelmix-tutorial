@@ -1,26 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IT業界の技術比較:データベース</title>
-<link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/slick.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
-</head>
-
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+  <meta charset="utf-8">
+  <title>@yield('title')</title>
+  <link rel="stylesheet" href="/css/style1.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
+  </head>
+  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">ウェブフレームワーク</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/serverservice" class="nav-link">サーバー</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
   </nav>
-  <h2></h2>
+      　<h2></h2>
     <section id="database">
         <div class="contentWrapper">
             <div class="flex">
@@ -58,13 +56,13 @@
             </div>
         </div>
         <a href="http://127.0.0.1:8000/backend">サーバーサービスへ</a>
-    </section>
-            </div>
-        </div>
-        
+    </section>   
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/slick.min.js"></script>
-    <script src="/js/main.js"></script>
-</body>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/css/slick/slick.min.js"></script>
+  <script src="/js/app.js"></script>
+ </body>
 </html>
 

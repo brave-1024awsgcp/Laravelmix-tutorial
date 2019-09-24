@@ -7,8 +7,9 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">ウェブフレームワーク</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/server" class="nav-link">サーバー</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>

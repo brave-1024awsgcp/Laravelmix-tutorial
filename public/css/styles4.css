@@ -1,14 +1,5 @@
-﻿@charset "utf-8";
-@media screen and (max-width: 980px) {
-	#main{
-		width: 100%;
-	}
-}
-@media print, screen and (min-width: 980px) {
-	#main{
-		width: 960px;
-	}
-}
+@charset "utf-8";
+
 body {
   margin: 0;
   padding: 0;
@@ -69,7 +60,7 @@ header h1 {
 #global_navi ul li a {
   display: block;
   padding: 16px;
-  background-color: #663366;
+  background-color: #352b23;
   color: #FFFFFF;
   text-decoration: none;
   transition: background-color 0.1s linear;
@@ -94,11 +85,11 @@ header h1 {
 
 /* フッダー部分 */
 footer {
-  background-color: #663366;
+  background-color: #352b23;
   text-align: center;
 }
 footer #footer_nav {
-  background-color: #663366;
+  background-color: #352b23;
   padding: 10px 0;
 }
 footer #footer_nav ul {
@@ -108,12 +99,20 @@ footer #footer_nav ul {
 }
 footer #footer_nav li {
   display: inline;
-  border-left: solid 1px rgb(156, 79, 79);
+  border-left: solid 1px #aaa;
   margin-left: 15px;
   padding-left: 15px;
   font-size: smaller;
 }
-
+footer #footer_nav li:last-child {
+  border-right: solid 5px #aaa;
+  padding: 0 8px;
+}
+footer small {
+  display: block;
+  padding: 8px 0;
+  color: #FFFFCC;
+}
 
 /* トップページ */
 #main_visual {
@@ -162,26 +161,4 @@ footer #footer_nav li {
     width: 500px;
     margin: auto;
   }
-
-  /* フッダー部分 */
-footer {
-  background-color: #663366;
-  text-align: center;
-}
-footer #footer_nav {
-  background-color: #663366;
-  padding: 10px 0;
-}
-footer #footer_nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-footer #footer_nav li {
-  display: inline;
-  border-left: solid 1px rgb(156, 79, 79);
-  margin-left: 15px;
-  padding-left: 15px;
-  font-size: smaller;
-}
 }

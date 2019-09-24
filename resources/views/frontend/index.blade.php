@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ウェブフレームワーク</title>
-<link rel="stylesheet" href="/css/style1.css">
-<link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/slick.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
-</head>
- <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+  <meta charset="utf-8">
+  <title>@yield('title')</title>
+  <link rel="stylesheet" href="/css/style1.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
+  </head>
+  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">ウェブフレームワーク</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/serverservice" class="nav-link">サーバー</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
@@ -80,91 +80,16 @@
                            <td>☆☆☆☆</td>
                            <td>☆☆☆</td>
                     </tr>
-            </table>
-
-         
-        <div class="slideshow">
-           <div><img src="img/gl1.jpg" alt=""></div>
-           <div><img src="img/gl2.jpg" alt=""></div>
-           <div><img src="img/gl3.jpg" alt=""></div>
-           <div><img src="img/gl4.jpg" alt=""></div>
-        </div>
-        
-        <table border ="1" align="center">
-                    <tr>
-                           <td></td>
-                           <th>Rails</th>
-                           <th>Laravel</th>
-                           <th>Django</th>
-                           <th>Express</th>
-                    </tr>
-
-                    <tr>
-            　　　　　　　 <th>インストール難易度</th>
-                           <td>☆☆☆☆</td>
-                           <td>☆☆☆</td>
-                           <td>☆☆☆☆☆</td>
-                           <td>☆</td>
-                    </tr>
-
-                     <tr>
-            　　　　　　　 <th>migrationでの自動コード生成量</th>
-                          <td>☆☆☆☆☆</td>
-                          <td>☆☆☆</td>
-                          <td>☆☆</td>
-                          <td>☆☆</td>
-                    </tr>
-
-            　　　　 <tr>
-            　　　　　　　 <th>相性の良いデータベースツール</th>
-            　　　　　　　　<td>SQLite</td>
-              　　　　　　　<td>SQLite</td>
-              　　　        <td>SQLite</td>
-                           <td>Mysql</td>
-                    </tr>
-
-                    <tr>
-                   　　　<th>ツールVERSION競合</th>
-                   　　　　<td>少ない</td>
-                     　　　<td>多い</td>
-                     　   <td>多い</td>
-                          <td>なし</td>
-                   </tr>
-            　　　　<tr>
-            　　　　　　　 <th>情報の充実度合</th>
-                           <td>☆☆☆☆☆</td>
-                           <td>☆☆☆</td>
-                           <td>☆☆☆</td>
-                           <td>☆</td>
-                    </tr>
-
-                    <tr>
-                    　　 <th>実際のコード記述量</th>
-                         <td>☆</td>
-                         <td>☆☆</td>
-                         <td>☆☆☆</td>
-                         <td>☆☆</td>
-                    </tr>
-
-            　　　　<tr>
-            　　　　　　　 <th>AWSとの相性</th>
-                           <td>☆☆☆</td>
-                           <td>☆☆</td>
-                           <td>？</td>
-                           <td>？</td>
-                    </tr>
-            </table>
-
-            <p>ここまで記載してきたことは悪魔でも個人的な見解です。実際の難易度は人によって異なるかもしれません。ただjavascriptの成長と進化は早いです。今後新しいフレームワークの誕生を期待しています。</p>   
-                    <a href="http://127.0.0.1:8000/posts/create">コメントへ</a>
-        </div>
-      </div>
-  </section>
-</div>
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/slick.min.js"></script>
+                    </table>                       
+         </div>
+　    </div>
+   </div>              
     <script src="/js/jquery-3.1.1.min.js"></script>
-    <script src="/slick/slick.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/main.js"></script>
     <script src="/js/app.js"></script>
+   <a href="http://127.0.0.1:8000/backend">次のページに進む</a>  
+</section>      
  </body>
 </html>

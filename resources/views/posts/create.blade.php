@@ -1,21 +1,10 @@
 @extends('layouts.default')
 
 @section('content')
-  <link rel="stylesheet" href="/css/style1.css">
-  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">ウェブフレームワーク</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
-  </ul>
-  </nav>
-   <h1></h1>
 
    <img src= "/img/gl2.jpg" alt="">
    <p>ご拝読いただきありがとうございました。</p>
-   <h2>下記お答えいただけますと幸いです☆</h2>
+   <p>下記お答えいただけますと幸いです☆</p>
    <p>お題はぶっちゃけやってみたい技術についてです。</p>
    <p>下記プルダウンメニューから選択して、ボタンをクリックしてください</p>
   <table>

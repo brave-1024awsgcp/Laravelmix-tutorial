@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class dbsqlController extends Controller
+class serverserviceController extends Controller
 {
     public function index() {
-        return view('dbsql.index');
+        return view('serverservice.index');
       }
 }

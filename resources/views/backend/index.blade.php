@@ -1,153 +1,120 @@
-                                                                                                    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IT業界の技術比較:SERVER</title>
-<link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
-</head>
-
+  <meta charset="utf-8">
+  <title>@yield('title')</title>
+  <link rel="stylesheet" href="/css/style1.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
+  </head>
   <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
       <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">ウェブフレームワーク</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/serverservice" class="nav-link">サーバー</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
   </nav>
-  
-        <section id="kasosoft">
-        <h2></h2>
-        <div class="contentWrapper">
-        </div>
-        <ul class="slider">
-            <li><img src="img/gl7.jpg" alt=""></li>
-            <li><img src="img/gl8.jpg" alt=""></li>
-            <li><img src="img/gl9.jpg" alt=""></li>
-            <li><img src="img/gl10.jpg" alt=""></li>
-        </ul>
-        <div class="contentWrapper">
-            <p></p>
-        </div>
-　　　　　<table border =　"1" align="center">
-            <tr>
-                   <td></td>
-                   <th>さくら</th>
-                   <th>Conoha</th>
-                   <th>Azure</th>
-                   <th>AWS</th>
-            </tr>
-
-            <tr>
-    　　　　　　　 <th>注文から使用できるまでの早さ</th>
-                   <td>☆☆</td>
-                   <td>☆☆</td>
-                   <td>☆☆☆</td>
-                   <td>☆☆☆</td>
-            </tr>
-
-             <tr>
-    　　　　　　　 <th>設定のしやすさ</th>
-  　　　　　　　　　　<td>☆</td>
-    　　　　　　　　　<td>☆☆☆</td>
-    　　　            <td>☆☆</td>
-                      <td>☆☆</td>
-            </tr>
-
-    　　　　 <tr>
-    　　　　　　　 <th>低コスト</th>
-    　　　　　　　　<td>☆☆☆</td>
-      　　　　　　　<td>☆☆☆</td>
-      　　　        <td>☆☆</td>
-                    <td>☆</td>
-            </tr>
-
-            <tr>
-           　　　<th>新技術対応</th>
-           　　　　<td>☆</td>
-             　　　<td>☆☆</td>
-             　    <td>☆☆☆</td>
-                   <td>☆☆☆</td>
-           </tr>
-    　　　　<tr>
-    　　　　　　　 <th>ドキュメントの充実度合</th>
-                   <td>☆☆</td>
-                   <td>☆☆☆</td>
-                   <td>☆☆</td>
-                   <td>☆☆☆</td>
-            </tr>
-
-    　　　　<tr>
-    　　　　　　　 <th>githubとの相性</th>
-                   <td>？</td>
-                   <td>☆☆</td>
-                   <td>☆☆</td>
-                   <td>☆☆☆</td>
-            </tr>
- </table>
-           
-        <h2>サーバーサービス</h2>
-            <div class="flex">
-                <div class="flexcontent">
-                    <figure>
-                        <img src="img/gl7.jpg" alt="">
-                        <figcaption>SakuraVPS</figcaption>
-                    </figure>
-                    <p><b>メリット</b></p>
-                    <p>低価格である。設定による急激な価格変更で請求が高額にならない</p>
-　　　　　　　　　　<p><b>デメリット</b></p>
-　　　　　　　　　<p>設定が難しく時間がかかりやすい。プランを変えるのに時間がかかった</p>
+      　<h2></h2>
+  <section id="Framework">
+       <div class="contentWrapper">
+           <canvas id="chart">
+           </canvas>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+              <script src="/js4/main.js"></script>
             </div>
-
-           <div class="flex">
-           <div class="flexcontent">
-                    <figure>
-                        <img src="img/gl8.jpg" alt="">
-                        <figcaption>ConohaVPS</figcaption>
-                    </figure>
-                    <p><b>メリット</b></p>
-                    <p>自動でフレームワークやdoccer等をインストールするサービスがある。</p>
-　                  <p><b>デメリット</b></p>
-                    <p>sshやftpの設定等は自身で調べた記憶があった等情報が若干少ない。</p>
-           </div>
-
-           <div class="flex">
-           <div class="flexcontent">
-                    <figure>
-                        <img src="img/gl9.jpg" alt="">
-                        <figcaption>Azure(Paas)</figcaption>
-                    </figure>
-                    <p><b>メリット</b></p>
-                    <p>設定が楽で、稼働させやすいく、無料期間のサポート期間が伸びている。</p>
-                    <p><b>デメリット</b></p>
-                    <p>使えるosなどが制限されやすい。uiが少し見づらかった</p>
-         　</div>
-
-            <div class="flex">
-            <div class="flexcontent">
-                    <figure>
-                        <img src="img/gl10.jpg" alt="">
-                        <figcaption>AWS(laas)</figcaption>
-                    </figure>
-                    <p><b>メリット</b></p>
-                    <p>自由度と性能が高く、無料期間が12ヶ月間存在しており、情報量が多い。</p>
-                    <p><b>デメリット</b></p>
-　　　　　　　　　　<p>アカウントをトレースをされると高額請求のリスクがある。</p>
-            </div>
-          </div>
+            　<h1>三大フレームワークについて（Laravel）</h1>
+             <p></p>
+            <p>Laravelは私も使用しているものの、使い勝手は良くなりつつある</p>
+            <p>フロントエンドの実装などは普通のHTMLとCSSで実装できるため、難易度は低い。</p>
+            <p>※但し動的セレクトボックスを実装する時は記述が自由になりすぎる</p>
+            <p>勢いは最もあるものの、どこかで勢いが止まる可能性もある</p>
+            <p>今後は・・・</p>
+　　　  　  <p>Expressは環境構築程度で実際に触ったことはない。</p>
+  　 　　　 <p>javascriptでサーバーサイドまでをという面では勢いもありそうだが・・・今は不明</p>
+  　　      <p>Djangoはというと元々pythonが機会学習での使用がメインであったり、どうか・・・</p>
+  　　      <p>近年良く聞くが、フロントエンド面に関しての不安がよぎる</p>
+        <div class="slideshow">
+           <div><img src="img/gl1.jpg" alt=""></div>
+           <div><img src="img/gl2.jpg" alt=""></div>
+           <div><img src="img/gl3.jpg" alt=""></div>
+           <div><img src="img/gl4.jpg" alt=""></div>
         </div>
-     </div>
-   </div>
-   <a href="http://127.0.0.1:8000/frontend">ウェブフレームワークへ</a>
-  </section>
-          
+        <table border ="1" align="center">
+                    <tr>
+                           <td></td>
+                           <th>Rails</th>
+                           <th>Laravel</th>
+                           <th>Django</th>
+                           <th>Express</th>
+                    </tr>
+
+                    <tr>
+            　　　　　　　 <th>インストール難易度</th>
+                           <td>☆☆☆☆</td>
+                           <td>☆☆☆</td>
+                           <td>☆☆☆☆☆</td>
+                           <td>☆</td>
+                    </tr>
+
+                     <tr>
+            　　　　　　　 <th>migrationでの自動コード生成量</th>
+                          <td>☆☆☆☆☆</td>
+                          <td>☆☆☆</td>
+                          <td>☆☆</td>
+                          <td>☆☆</td>
+                    </tr>
+
+            　　　　 <tr>
+            　　　　　　　 <th>相性の良いデータベースツール</th>
+            　　　　　　　　<td>SQLite</td>
+              　　　　　　　<td>SQLite</td>
+              　　　        <td>SQLite</td>
+                           <td>Mysql</td>
+                    </tr>
+                    <tr>
+                   　　　<th>ツールVERSION競合</th>
+                   　　　　<td>少ない</td>
+                     　　　<td>多い</td>
+                     　   <td>多い</td>
+                          <td>なし</td>
+                   </tr>
+            　　　　<tr>
+            　　　　　　　 <th>情報の充実度合</th>
+                           <td>☆☆☆☆☆</td>
+                           <td>☆☆☆</td>
+                           <td>☆☆☆</td>
+                           <td>☆</td>
+                    </tr>
+                    <tr>
+                    　　 <th>実際のコード記述量</th>
+                         <td>☆</td>
+                         <td>☆☆</td>
+                         <td>☆☆☆</td>
+                         <td>☆☆</td>
+                    </tr>
+            　　　　<tr>
+            　　　　　　　 <th>AWSとの相性</th>
+                           <td>☆☆☆</td>
+                           <td>☆☆</td>
+                           <td>？</td>
+                           <td>？</td>
+                    </tr>
+　            </table>
+            <p>ここまで記載してきたことは悪魔でも個人的な見解です。</p>
+            <p>実際の難易度や将来性等は人の価値観によって異なります。</p>
+　　　　　 <p>また、golangやkotolin等の技術の成長も期待しています。</p>
+      <a href="http://127.0.0.1:8000/posts/create">コメントへ</a>
+    </section>           
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="css/slick/slick.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/app.js"></script>
+ </body>
 </html>
-

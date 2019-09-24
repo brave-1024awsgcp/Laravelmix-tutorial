@@ -4,9 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SIERController extends Controller
+class DatabaseController extends Controller
 {
     public function index() {
-        return view('SIER.index');
+        return view('Database.index');
       }
+    
 }
