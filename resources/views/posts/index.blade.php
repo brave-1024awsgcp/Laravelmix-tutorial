@@ -15,7 +15,7 @@
   </ul>
   </nav>
   <h1></h1>
-  <img src= "/img/gl2.jpg" alt="">
+  <img src= "/img/slack.jpg" alt="">
         <table border ="1" align ="center">
   <tr>
     <th>NO</th><th>techcategory</th><th>serversidelang</th><th>frontendlang</th><th>databaselang</th><th>programing</th><th>techservice</th><th>operatingsystem</th>

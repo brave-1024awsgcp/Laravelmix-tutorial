@@ -2,7 +2,7 @@
 
 @section('content')
 
-   <img src= "/img/gl2.jpg" alt="">
+   <img src= "/img/slack.jpg" alt="">
    <p>ご拝読いただきありがとうございました。</p>
    <p>下記お答えいただけますと幸いです☆</p>
    <p>お題はぶっちゃけやってみたい技術についてです。</p>
