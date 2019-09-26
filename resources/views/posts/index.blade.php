@@ -41,6 +41,6 @@
    
    <p>ご拝読いただきありがとうございました。</p>  
   <p>下記リンクより簡単なコメントをいただけますと幸いです。</p>
-  <a href="http://127.0.0.1:8000/posts/create">コメントへ</a>     
+  <a href="/mypage">TOPへ</a>     
   {{ $posts->links() }}
 @endsection

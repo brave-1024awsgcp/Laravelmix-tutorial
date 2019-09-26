@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>@yield('title')</title>
+  <title></title>
   <link rel="stylesheet" href="/css/style1.css">
   <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
@@ -10,10 +10,10 @@
   </head>
   <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
-      <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/serverservice" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/Database" class="nav-link">RDB</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/serverservice" class="nav-link">serverservice</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">frontend</a></li>
+      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">backend</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
@@ -24,7 +24,7 @@
             <canvas id="chart">
             </canvas>
                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-               <script src="/js2/main.js"></script>
+               <script src="/js11/main.js"></script>
              </div>
              <p>git hubスターについて</p>
              <p>上記のグラフはgit hubスターにより、判明した去年までの情報である。</p>
@@ -32,10 +32,10 @@
              <p>AngularはJavascritptのフレームワークではないので要注意</p>
        　　　<p>※正しくはTypescritpt</p>
           <div class="slideshow">
-           <div><img src="/img/typescript.jpg" alt=""></div>
-          <div><img src="/img/Angular.jpg" alt=""></div>
-          <div><img src="/img/React.jpg" alt=""></div>
-       　<div><img src="/img/Laravelmix6.jpg" alt=""></div>
+           <div><img src="img/typescript.jpg" alt=""></div>
+          <div><img src="img/Angular.jpg" alt=""></div>
+          <div><img src="img/React.jpg" alt=""></div>
+       　<div><img src="img/Laravelmix6.jpg" alt=""></div>
            </div>          
           <table border ="1" align="center">
                     <tr>
@@ -84,11 +84,11 @@
          </div>
 　    </div>
    </div>              
-    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js10/jquery-3.1.1.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/slick.min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/app.js"></script>
+    <script src="/js10/slick.min.js"></script>
+    <script src="/js10/main.js"></script>
+    <script src="/js10/app.js"></script>
    <a href="http://127.0.0.1:8000/backend">次のページに進む</a>  
 </section>      
  </body>

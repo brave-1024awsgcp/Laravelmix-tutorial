@@ -13,7 +13,7 @@
     <div id="header_last"></div>
     <nav id="global_navi">
         <ul>
-          <li><a href="http://127.0.0.1:8000/" class="dropdown-item">①HOME</a></li>
+          <li><a href="http://127.0.0.1:8000/HOME" class="dropdown-item">①HOME</a></li>
           <li><a href="http://127.0.0.1:8000/SIER" class="dropdown-item">②SIERについて</a></li>
           <li><a href="http://127.0.0.1:8000/gengo" class="dropdown-item">③静的言語について</a></li>
           <li><a href="http://127.0.0.1:8000/SEPG" class="dropdown-item">④SEとPGについて</a></li>
@@ -26,5 +26,4 @@
       </ul>
     </nav>
 </header>
-</body>
-</html>
+

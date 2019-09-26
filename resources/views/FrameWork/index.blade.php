@@ -13,19 +13,22 @@
     <div id="header_last"></div>
     <nav id="global_navi">
         <ul>
-          <li><a href="http://127.0.0.1:8000/" class="dropdown-item">①HOME</a></li>
-          <li><a href="http://127.0.0.1:8000/SIER" class="dropdown-item">②SIERについて</a></li>
-          <li><a href="http://127.0.0.1:8000/gengo" class="dropdown-item">③静的言語について</a></li>
-          <li><a href="http://127.0.0.1:8000/SEPG" class="dropdown-item">④SEとPGについて</a></li>
-          <li><a href="http://127.0.0.1:8000/WEB" class="dropdown-item">⑤WEB業界</a></li>      
-          <li><a href="http://127.0.0.1:8000/gengo2" class="dropdown-item">⑥スクリプト言語</a></li>
-          <li><a href="http://127.0.0.1:8000/FrameWork" class="dropdown-item">⑦フレームワーク</a></li>
-          <li><a href="http://127.0.0.1:8000/Data" class="dropdown-item">⑧言語の動向</a></li>
-          <li><a href="http://127.0.0.1:8000/Info" class="dropdown-item">⑨各業界の比較</a></li>
-          <li><a href="http://127.0.0.1:8000/Info2" class="dropdown-item">⑩まとめ</a></li>
+          <li><a href="/HOME" class="dropdown-item">①HOME</a></li>
+          <li><a href="/SIER" class="dropdown-item">②SIERについて</a></li>
+          <li><a href="/gengo" class="dropdown-item">③静的言語について</a></li>
+          <li><a href="/SEPG" class="dropdown-item">④SEとPGについて</a></li>
+          <li><a href="/WEB" class="dropdown-item">⑤WEB業界</a></li>      
+          <li><a href="/gengo2" class="dropdown-item">⑥スクリプト言語</a></li>
+          <li><a href="/FrameWork" class="dropdown-item">⑦フレームワーク</a></li>
+          <li><a href="/Data" class="dropdown-item">⑧言語の動向</a></li>
+          <li><a href="/Info" class="dropdown-item">⑨各業界の比較</a></li>
+          <li><a href="/Info2" class="dropdown-item">⑩まとめ</a></li>
       </ul>
     </nav>
-</header>
+　</header>
+    <div id="main_visual">
+      <p><img src="/img2/main_visual.jpg"></p>
+    </div>
    　　　<h2><b>フレームワークについて</b></h2>
    <p>コードの記述を簡略化し、開発を効率良く早く進めるために行うアプリです</p>
    <p>特にPHPやRubyのようにコードが乱立するようなフレームワーク等では重宝されます。</p>
@@ -43,5 +46,5 @@
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="slick/slick.min.js"></script>
   <script src="js/app.js"></script>
-</body>
+ </body>
 </html>
