@@ -9,6 +9,7 @@
    <p>下記プルダウンメニューから選択して、ボタンをクリックしてください</p>
   <table>
    <form method="post" action="{{ url('/posts') }}">
+
    {{ csrf_field() }}
    <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'management' => 'management' ,'database' => 'database', 'network' => 'network', 'backend' =>'backend', 'frontend' =>'frontend'])}}</td></tr>
    <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Jsp' => 'Jsp', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Play' =>'Play','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
