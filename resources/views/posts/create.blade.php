@@ -1,8 +1,8 @@
 @extends('layouts.default')
 
 @section('content')
-
-   <img src= "/img/gl2.jpg" alt="">
+    <h1></h1>
+   <img src= "/img/Macbook.jpg" alt="">
    <p>ご拝読いただきありがとうございました。</p>
    <p>下記お答えいただけますと幸いです☆</p>
    <p>お題はぶっちゃけやってみたい技術についてです。</p>
@@ -20,4 +20,5 @@
      <input type="submit" value="押してね！！">
   </form>
  </table>
+ <a href="/">皆様も回答ページへ</a>     
 @endsection

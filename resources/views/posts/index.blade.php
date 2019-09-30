@@ -1,22 +1,13 @@
 @extends('layouts.default')
 
-@section('title', 'please koment')
-
 @section('content')
-<link rel="stylesheet" href="/css/style1.css">
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/server" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/frontend" class="nav-link">フレームワーク1</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/backend" class="nav-link">フレームワーク2</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/posts/create" class="nav-link">コメント</a></li>
-      <li class="nav-item"><a href="http://127.0.0.1:8000/posts/index" class="nav-link">コメント履歴</a></li>
-  </ul>
-  </nav>
+
   <h1></h1>
-  <img src= "/img/gl2.jpg" alt="">
-        <table border ="1" align ="center">
+  <img src= "/img/Macbook.jpg" alt="">
+  <p>ご拝読いただきありがとうございました。</p>  
+  <p>下記リンクより TOPへ戻れます。</p>
+  <a href="/mypage">TOPへ</a>     
+        <table border ="1" align ="center">       
   <tr>
     <th>NO</th><th>techcategory</th><th>serversidelang</th><th>frontendlang</th><th>databaselang</th><th>programing</th><th>techservice</th><th>operatingsystem</th>
     </tr>
@@ -38,9 +29,5 @@
     <script src="/js/main.js"></script>
     @endforeach
    </table>
-   
-   <p>ご拝読いただきありがとうございました。</p>  
-  <p>下記リンクより簡単なコメントをいただけますと幸いです。</p>
-  <a href="/mypage">TOPへ</a>     
   {{ $posts->links() }}
 @endsection

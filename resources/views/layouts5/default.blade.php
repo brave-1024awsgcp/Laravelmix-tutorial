@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
+ <html lang="ja">
+ <head>
   <meta charset="utf-8">
-  <title>@yield('title')</title>
+  <title>it</title>
   <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="/css/style1.css">
   <link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
@@ -18,7 +18,7 @@
       <li class="nav-item"><a href="/posts/index" class="nav-link">コメント履歴</a></li>
   </ul>
   </nav>
-      <div class="contentWrapper">
-        @yield('content')
+      <section id="kasosoft">
+      @yield('content')
       </div>
 </html>
