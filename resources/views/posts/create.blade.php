@@ -1,13 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
-<<<<<<< HEAD
+
     <h1></h1>
    <img src= "/img/Macbook.jpg" alt="">
-=======
-
-   <img src= "/img/slack.jpg" alt="">
->>>>>>> origin/master
    <p>ご拝読いただきありがとうございました。</p>
    <p>下記お答えいただけますと幸いです☆</p>
    <p>お題はぶっちゃけやってみたい技術についてです。</p>
@@ -26,5 +22,6 @@
      <input type="submit" value="押してね！！">
   </form>
  </table>
- <a href="/">皆様も回答ページへ</a>     
+ <p><a href="/">戻る</a></p>
+ <p><a href="/posts/index">コメント履歴へ</a></p>
 @endsection

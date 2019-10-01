@@ -10,6 +10,7 @@
   </head>
   <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
+      <li class="nav-item"><a href="/" class="nav-link">TOP</a></li>
       <li class="nav-item"><a href="/Database" class="nav-link">データベース</a></li>
       <li class="nav-item"><a href="/serverservice" class="nav-link">サーバー</a></li>
       <li class="nav-item"><a href="/frontend" class="nav-link">フレームワーク1</a></li>

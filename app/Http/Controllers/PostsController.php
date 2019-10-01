@@ -1,9 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Post;
+use App\Http\Requests\CreatePost;
+
+
+use Illuminate\Support\Facades\Mail;
+use App\Mail\PostSent;
 
 class PostsController extends Controller
 {

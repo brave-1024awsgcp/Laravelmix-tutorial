@@ -16,6 +16,7 @@
       <li class="nav-item"><a href="/backend" class="nav-link">フレームワーク2</a></li>
       <li class="nav-item"><a href="/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="/posts/index" class="nav-link">コメント履歴</a></li>
+      <li class="nav-item"><a href="/" class="nav-link">TOPへ戻る</a></li>
   </ul>
   </nav>
       <section id="kasosoft">

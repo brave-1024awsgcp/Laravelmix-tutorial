@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: center;
-    background-image: url(../img/images.jpg);
+  background-image: url(../img/images.jpg);
 }
 
 [tabindex="-1"]:focus {

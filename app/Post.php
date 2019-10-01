@@ -7,5 +7,4 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     protected $fillable = ['category','fulstack','frontend','sqls','gengo','serveres','os'];
- 
 }

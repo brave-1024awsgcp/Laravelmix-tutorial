@@ -3,16 +3,13 @@
 @section('content')
 
   <h1></h1>
-<<<<<<< HEAD
+
   <img src= "/img/Macbook.jpg" alt="">
   <p>ご拝読いただきありがとうございました。</p>  
   <p>下記リンクより TOPへ戻れます。</p>
-  <a href="/mypage">TOPへ</a>     
+  <a href="/mypage">TOPへ</a>  
+  <p><a href="/posts/create">コメントへ</a></p>   
         <table border ="1" align ="center">       
-=======
-  <img src= "/img/slack.jpg" alt="">
-        <table border ="1" align ="center">
->>>>>>> origin/master
   <tr>
     <th>NO</th><th>techcategory</th><th>serversidelang</th><th>frontendlang</th><th>databaselang</th><th>programing</th><th>techservice</th><th>operatingsystem</th>
     </tr>
