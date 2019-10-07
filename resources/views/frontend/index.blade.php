@@ -1,6 +1,7 @@
 @extends('layouts3.default')
 
 @section('content') 
+<div class="text-center bg-dark text-light">BOX</div>
         <div class="contentWrapper">
             <canvas id="chart">
             </canvas>
