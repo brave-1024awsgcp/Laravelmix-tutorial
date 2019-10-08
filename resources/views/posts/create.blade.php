@@ -2,6 +2,9 @@
 
 @section('content')
 
+<div style="height: 50px;background: lightblue;"></div>
+        <div class="foundation-example__ex-wrapper">
+            <div class="foundation-example__in-wrapper">
     <h1></h1>
    <img src= "/img/Macbook.jpg" alt="">
    <p>ご拝読いただきありがとうございました。</p>
@@ -12,6 +15,7 @@
    <form method="post" action="{{ url('/posts') }}">
 
    {{ csrf_field() }}
+   
    <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'management' => 'management' ,'database' => 'database', 'network' => 'network', 'backend' =>'backend', 'frontend' =>'frontend'])}}</td></tr>
    <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Jsp' => 'Jsp', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Play' =>'Play','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
    <tr><th>フロントエンド技術</th><td>{{Form::select('frontend', ['React js' => 'React js', 'Vue.js' => 'Vue.js', 'Angular' =>'Angular','Ember js' =>'Ember js','boot strap' =>'boot strap'])}}</td></tr>

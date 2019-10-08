@@ -168,14 +168,14 @@ body,a {
 
 h1 {
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    background-image: url(../img/images.jpg);
+    background-image: url(../img/tpBk.jpg);
     font-size: 3rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0 5px rgba(31,50,53,0.8), 0 0 5px rgba(31,50,53,0.3);
     margin: 0;
 }
 h2 {
-    background-image: url(../img/images.jpg);
+    background-image: url(../img/tpBk.jpg);
     font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3","ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     font-size: 2.6rem;
     letter-spacing: 0.5rem;
@@ -224,7 +224,7 @@ header .contentWrapper {
 }
 
 #database {
-    background-image: url(../img/images.jpg);
+    background-image: url(../img/images1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -248,7 +248,7 @@ header .contentWrapper {
 
 /** kasosoft **/
 #kasosoft {
-    background-image: url(../img/images.jpg);
+    background-image: url(../img/images1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

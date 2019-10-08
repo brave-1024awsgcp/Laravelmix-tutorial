@@ -7,7 +7,7 @@
   <img src= "/img/Macbook.jpg" alt="">
   <p>ご拝読いただきありがとうございました。</p>  
   <p>下記リンクより TOPへ戻れます。</p>
-  <a href="/mypage">TOPへ</a>  
+  <a href="/">TOPへ</a>  
   <p><a href="/posts/create">コメントへ</a></p>   
         <table border ="1" align ="center">       
   <tr>
