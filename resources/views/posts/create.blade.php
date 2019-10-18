@@ -16,8 +16,8 @@
 
    {{ csrf_field() }}
    
-   <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'management' => 'management' ,'database' => 'database', 'network' => 'network', 'backend' =>'backend', 'frontend' =>'frontend'])}}</td></tr>
-   <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Jsp' => 'Jsp', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Play' =>'Play','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
+   <tr><th>やってみたい分野</th><td>{{Form::select('category', [ 'データベース' => 'データベース', 'インフラ' => 'インフラ', 'backend' =>'backend', 'frontend' =>'frontend'])}}</td></tr>
+   <tr><th>バックエンド技術</th><td>{{Form::select('fulstack', ['Play framework' => 'Play framework', 'Laravel' => 'Laravel', 'Django' =>'Django', 'Express js' =>'Express js', 'RubyonRails' =>'RubyonRails','Play' =>'Play','Sym fony'=>'Sym fony', 'Cake PHP'=>'Cake PHP', 'Angular'=>'Angular'])}}</td></tr>
    <tr><th>フロントエンド技術</th><td>{{Form::select('frontend', ['React js' => 'React js', 'Vue.js' => 'Vue.js', 'Angular' =>'Angular','Ember js' =>'Ember js','boot strap' =>'boot strap'])}}</td></tr>
    <tr><th>使用しているSQL</th><td>{{Form::select('sqls', ['mysql' => 'mysql', 'sqlite' => 'sqlite'])}}</td></tr>
    <tr><th>使用したい言語</th><td>{{Form::select('gengo', ['Java' => 'Java', 'php' => 'php', 'C' =>'C', 'C++' =>'C++','C#' =>'C#','Ruby' =>'Ruby','Java script' =>'Java script','Python' =>'Python', 'Type cript' =>'Type cript', 'VBA' =>'VBA', 'VB' =>'VB', 'Scala' =>'Scala', 'Kotolin' =>'Kotolin','Swift' =>'Swift'])}}</td></tr>

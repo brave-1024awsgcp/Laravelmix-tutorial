@@ -11,10 +11,9 @@
       <img src="/img/GD.jpg" class="img-fluid">
        </div>
     <div class="col-md-6 mt-2 mt-md-0">
-        <p class="mb-0"><p>名前：古江勇輝</a></p></p>
-        <p class="mb-0"><p>年齢：33</a></p></p>
+        <p class="mb-0"><p>name:old-rever-brave</a></p></p>
+        <p class="mb-0"><p>age：33</a></p></p>
         <p class="mb-0"><p>血液型:O型</a></p></p>
-        <p class="mb-0"><p>出身地：宮崎県</a></p></p>
         <p class="mb-0"><p>現住所：埼玉県</a></p></p>
         <p class="mb-0"><p>好きなグループ：BIGBANE</a></p></p>
         <p class="mb-0"><p>好きな歌手：HIDE氏</a></p></p>
@@ -30,9 +29,7 @@
           <img src="/img/azure.jpg" class="img-fluid">
         </div>
         <div class="col-md-6 mt-2 mt-md-0">
-            <p class="mb-0"><p>営業会社にて新規顧客営業</a></p></p>
-            <p class="mb-0"><p>→10か月</a></p></p>
-            <p class="mb-0"><p>その後、カスタマーサポートを1年以上経験。</a></p></p>
+            <p class="mb-0"><p>カスタマーサポートを1年以上経験。</a></p></p>
             <p class="mb-0"><p>当時ダブルワークで資金を稼いで上京</a></p></p>
             <p class="mb-0"><p>上京後国家試験取得に励みつつアルバイトにて生計をたてておりました</a></p></p>
             <p class="mb-0"><p>そんな中二年前、31歳でIT業界へとデビュー</a></p></p>
@@ -75,11 +72,9 @@
      </div>
      <div class="col-md-6 mt-2 mt-md-0">
         <p class="mb-0"><p>使用可能OS：windows、ubuntu、mackbook</a></p></p>
-        <p class="mb-0"><p>使用可能言語：下記に記載</a></p></p>
-        <p class="mb-0"><p>HTML5、CSS3、bootstrap</a></p></p>
-        <p class="mb-0"><p>javascript+(chart.js)、jquery</a></p></p>
-        <p class="mb-0"><p>使用可能フレームワーク：下記に記載</a></p></p>
-        <p class="mb-0"><p>Laravel</a></p></p>
+        <p class="mb-0"><p>使用可能言語：HTML5、CSS3、javascript+(chart.js)、jquery</a></p></p>
+        <p class="mb-0"><p>使用可能データベース：Mysql、Sqlite</a></p></p>
+        <p class="mb-0"><p>使用可能フレームワーク：Laravel、bootstrap</a></p></p>
         <p class="mb-0"><p>使用可能バージョン管理システム：github</a></p></p>
       </div>
   </div>
