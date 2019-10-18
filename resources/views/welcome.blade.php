@@ -1,85 +1,77 @@
-@extends('layouts1.default')
+@extends('layouts.app')
 
 @section('content')
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/style1.css">
+<link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+ <link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Login') }}</div>
 
-<section></section>
-  <h4 class="mt-5"><p>①</p></h4>
-  <h4 class="mt-5"><p>自己紹介</p></h4>
-  <hr class="mt-0 mb-3">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="/img/GD.jpg" class="img-fluid">
-       </div>
-    <div class="col-md-6 mt-2 mt-md-0">
-        <p class="mb-0"><p>名前：古江勇輝</a></p></p>
-        <p class="mb-0"><p>年齢：33</a></p></p>
-        <p class="mb-0"><p>血液型:O型</a></p></p>
-        <p class="mb-0"><p>出身地：宮崎県</a></p></p>
-        <p class="mb-0"><p>現住所：埼玉県</a></p></p>
-        <p class="mb-0"><p>好きなグループ：BIGBANE</a></p></p>
-        <p class="mb-0"><p>好きな歌手：HIDE氏</a></p></p>
-    </div>
-  </div>
- 
-  <h4 class="mt-5"><p>➁</p></h4>
-  <h4 class="mt-5"><p>経歴</p></h4>
-    <section></section>
-      <hr class="mt-0 mb-3">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/img/azure.jpg" class="img-fluid">
+                <div class="card-body">
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
+
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('name') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="name" type="name" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6 offset-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                    <label class="form-check-label" for="remember">
+                                        {{ __('Remember Me') }}
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Login') }}
+                                </button>
+
+                                @if (Route::has('password.request'))
+                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Forgot Your Password?') }}
+                                    </a>
+                                @endif
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 mt-2 mt-md-0">
-            <p class="mb-0"><p>営業会社にて新規顧客営業</a></p></p>
-            <p class="mb-0"><p>→10か月</a></p></p>
-            <p class="mb-0"><p>その後、カスタマーサポートを1年以上経験。</a></p></p>
-            <p class="mb-0"><p>当時ダブルワークで資金を稼いで上京</a></p></p>
-            <p class="mb-0"><p>上京後国家試験取得に励みつつアルバイトにて生計をたてておりました</a></p></p>
-            <p class="mb-0"><p>そんな中二年前、31歳でIT業界へとデビュー</a></p></p>
-            <p class="mb-0"><p>NW設計の業務にあたり、進捗管理を経験。会議議事録や環境変更作業等を経験。</p></p>
-            <p class="mb-0"><p>現場が変わり、PHPのWEB開発業務へと従事。職場都合により別部署への異動により退職</a></p></p>
-            <p class="mb-0"><p>退職後、現在に至る。現在はJCOMにて運用管理部の障害対応の業務を行っている。</a></p></p>
-            <p class="mb-0"><p>在職中ではありながらも、余暇はプログラミングや環境構築等を行って生活しております。</a></p></p>
-          </div>
-      </div>
-　　</div>     
-　　<h4 class="mt-5"><p>③</p></h4> 
-　　<h4 class="mt-5"><p>長所</p></h4> 
-  <section></section>
-  <hr class="mt-0 mb-3">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="/img/Centos.jpg" class="img-fluid">
     </div>
-    <div class="col-md-6 mt-2 mt-md-0">
-        <p class="mb-0"><p>学生時代から10年続けたスポーツで養った体力で6年間当日欠勤なし</a></p></p>
-        <p class="mb-0"><p>独学ではありますが、簡単なWEBアプリを人通り制作できるようになりました</a></p></p>
-        <p class="mb-0"><p>Linuxのubuntu使用経験はCentosも難なく使用できております。使用経験2年。</a></p></p>
-        <p class="mb-0"><p>↓↓↓以下導入記録↓↓↓</p></p>
-        <p class="nav-item"><a href="http://yuuki.conohawing.com/setup/index.html" class="nav-link">ubuntuでの環境構築色々</a></p>
-        <p class="mb-0"><p>自身に必要な開発ツールはほぼ何でも導入できるようになりました</a></p></p>
-        <p class="mb-0"><p>現在は実務で使用したことのあるdoccerを勉強しております。</a></p></p>
-        <p class="mb-0"><p>これからやりたい分野はフロントエンドの開発です＝vue.js　→　React。js</a></p></p>
-        <p class="mb-0"><p>以上、よろしくお願いいたします。</a></p></p>
-      </div>
-    </div>
-  </div>     
-        
-  　　<h4 class="mt-5"><p>④</h4> 
-  <h4 class="mt-5"><p>使用可能技術</p></h4>
-  <section></section>
-  <hr class="mt-0 mb-3">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="/img/WEB.png" class="img-fluid">
-     </div>
-     <div class="col-md-6 mt-2 mt-md-0">
-        <p class="mb-0"><p>使用可能OS：windows、ubuntu、mackbook</a></p></p>
-        <p class="mb-0"><p>使用可能言語：下記に記載</a></p></p>
-        <p class="mb-0"><p>HTML5、CSS3、bootstrap</a></p></p>
-        <p class="mb-0"><p>javascript+(chart.js)、jquery</a></p></p>
-        <p class="mb-0"><p>使用可能フレームワーク：下記に記載</a></p></p>
-        <p class="mb-0"><p>Laravel</a></p></p>
-        <p class="mb-0"><p>使用可能バージョン管理システム：github</a></p></p>
-      </div>
-  </div>
+</div>
+@endsection

@@ -14,7 +14,7 @@
   <div class="collapse navbar-collapse" id="nav1">
     <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
       　　　 <ul class="navbar-nav">
-            　 <li class="nav-item"><a href="/" class="nav-link">mypage</a></li>
+            　 <li class="nav-item"><a href="mypage" class="nav-link">mypage</a></li>
              　<li class="nav-item"><a href="website" class="nav-link">制作記録</a></li>
              　<li class="nav-item"><a href="gitquita" class="nav-link">git&quita</a></li>
       　   </ul>

@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'mypageController@index');
+
+Route::get('', 'mypageController@index');
 Route::get('/website', 'websiteController@index');
 Route::get('/gitquita', 'gitquitaController@index');
 Route::get('/HOME', 'HOMEController@index');
