@@ -10,13 +10,13 @@
   </head>
   <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
     <ul class="navbar-nav">
-      <li class="nav-item"><a href="/Database" class="nav-link">データベース</a></li>
-      <li class="nav-item"><a href="/serverservice" class="nav-link">サーバー</a></li>
-      <li class="nav-item"><a href="/frontend" class="nav-link">フレームワーク1</a></li>
-      <li class="nav-item"><a href="/backend" class="nav-link">フレームワーク2</a></li>
+      <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/database.html" class="nav-link">データベース</a></li>
+      <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/serverservice.html" class="nav-link">サーバー</a></li>
+      <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/frontend.html" class="nav-link">フロントエンド</a></li>
+      <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/tools/backend.html" class="nav-link">バックエンド</a></li>
       <li class="nav-item"><a href="/posts/create" class="nav-link">コメント</a></li>
       <li class="nav-item"><a href="/posts/index" class="nav-link">コメント履歴</a></li>
-      <li class="nav-item"><a href="/" class="nav-link">TOPへ戻る</a></li>
+      <li class="nav-item"><a href="http://yuuki.conohawing.com/newportfolio/mypage.html" class="nav-link">TOPへ戻る</a></li>
   </ul>
   </nav>
       <div class="contentWrapper">
